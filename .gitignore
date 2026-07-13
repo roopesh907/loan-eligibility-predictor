@@ -30,9 +30,9 @@ Thumbs.db
 
 # Heavy Machine Learning Binaries (Optional but recommended)
 # Standard practice is to keep models out of Git if they are >50MB
-# If yours are small (<25MB), you can comment these two lines out by adding a #
-model.pkl
-scaler.pkl
+# # If yours are small (<25MB), you can comment these two lines out by adding a #
+# model.pkl
+# scaler.pkl
 
 # Local Environment Variables
 .env
