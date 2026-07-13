@@ -1,0 +1,40 @@
+# Prerequisites
+*.pyc
+__pycache__/
+.ipynb_checkpoints
+
+# Virtual Environments (Matches venv folders in both frontend and backend)
+venv/
+env/
+.venv/
+
+# Node / Frontend Dependencies
+node_modules/
+.pnp
+.pnp.js
+dist/
+build/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs
+*.njsproj
+*.sln
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Heavy Machine Learning Binaries (Optional but recommended)
+# Standard practice is to keep models out of Git if they are >50MB
+# If yours are small (<25MB), you can comment these two lines out by adding a #
+model.pkl
+scaler.pkl
+
+# Local Environment Variables
+.env
+.env.local
+.env.development.local
