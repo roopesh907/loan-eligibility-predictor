@@ -52,7 +52,7 @@ const LoanForm = () => {
 
     try {
       // Adjust port 5000 to match your Flask/FastAPI backend port configuration
-      const response = await fetch("http://localhost:8000/predict", {
+      const response = await fetch("https://loan-eligibility-predictor-j1bx.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
